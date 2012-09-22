@@ -1,0 +1,11 @@
+div.content
+    div.row
+        div.span12
+            h2 Add a new Report
+            p 
+              form(name='form-testdoc', method='POST', action='/posts').form
+                label Title
+                input(name='doc', type='text', id='doc')
+                span.help-block 
+                button(type='submit').btn Submit
+                  

@@ -1,0 +1,14 @@
+div.content
+    div.row
+        div.span12
+            h2 Signup
+            p 
+              form(name='form-testdoc', method='POST', action='/posts').form
+                input(type='hidden', name='_method', value='POST')
+                First name:
+                input(name='doc', type='text', id='doc')
+                Last name:
+                input(type='hidden', name='_method', value='POST')
+                button(type='submit').btn Submit
+                  
+                  
